@@ -142,8 +142,9 @@ To maximize knowledge transfer and keep the user actively engaged without causin
   * **Project Documentation**: Log print builds in `3d-printing/Projects/` using `3d-printing/Templates/Template - Print Project Log.md`.
 
 ### D. Technology Professional & Architecture (`professional-technology`)
-* **Knowledge Architecture**: Interconnected AWS Solutions Architect study guides, domain MOCs, decision matrices, and exam trap breakdowns.
-* **Inbox Workflow**: When processing `00 - Inbox/`, extract core insights, apply YAML frontmatter/tags, move refined notes to their domain directory, and link in domain MOCs.
+* **Multi-Cloud Knowledge Architecture**: Interconnected enterprise cloud architecture knowledge spanning AWS (`aws/`) and Microsoft Azure (`azure/`), domain MOCs, decision matrices, and exam trap breakdowns (AWS SAA-C03 / SAP-C02 and Azure AZ-305 / AZ-104).
+* **Multi-Cloud Translation**: Maintain and reference `[[Decision Matrix - AWS to Azure Service Translation]]` when synthesizing cross-cloud architectures and trade-offs.
+* **Inbox Workflow**: When processing `00 - Inbox/`, extract core insights, apply YAML frontmatter/tags, move refined notes to their domain directory (`aws/` or `azure/`), and link in domain MOCs.
 * **Professional Portfolio & PDF Engine (`resume/`)**:
   * **Dual-Artifact Workflow**: Semantic Markdown (`Ryan_Bartusek_Resume_2026vX.md`) paired with compiled single-page vector PDF (`.pdf`).
   * **Automated PDF Engine**: Built via headless Chromium browser using `python3 render_pdf.py`.

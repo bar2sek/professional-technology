@@ -1,96 +1,103 @@
 ---
 tags:
+  - cloud/moc
+  - multi-cloud
   - aws/moc
-  - aws/index
+  - azure/moc
   - hub
-last_updated: 2026-08-24
+last_updated: 2026-09-19
 status: evergreen
 ---
 
-# ☁️ AWS Architecture Certification Knowledge Vault
+# ☁️ Multi-Cloud Enterprise Architecture Knowledge Vault
 
-> [!abstract] Welcome to the AWS Architecture Study Vault
-> This Obsidian vault is engineered to prepare for the **AWS Certified Solutions Architect – Associate (SAA-C03)** and **Professional (SAP-C02)** certifications using principles of active recall, visual architecture graphs, and deep cross-linking.
+> [!abstract] Enterprise Cloud Solutions Architect Hub
+> A production-grade, interconnected Second Brain engineered for **Multi-Cloud Solutions Architecture**, covering deep domain mastery for both **Amazon Web Services (AWS)** and **Microsoft Azure**, paired with an automated headless browser resume & career portfolio engine.
 
 ---
 
-## 🗺️ Master Maps of Content (MOCs)
+## 🗺️ Master Cloud Navigation Hubs
 
 ```mermaid
-mindmap
-  root((AWS Architect))
-    Foundations
-      [[Well-Architected Framework MOC|Well-Architected]]
-      [[High Availability & DR Strategies|Disaster Recovery]]
-    Core Infrastructure
-      [[Compute MOC|Compute]]
-      [[Storage MOC|Storage]]
-      [[Databases MOC|Databases]]
-      [[Networking MOC|Networking & VPC]]
-    Security & Ops
-      [[Security MOC|Security & IAM]]
-      [[Monitoring MOC|Monitoring & Governance]]
-    App Architecture
-      [[Integration MOC|Messaging & Integration]]
-    Exam Mastery
-      [[SAA-C03 High-Yield Exam Cheat Sheet|Cheat Sheet]]
-      [[Decision Matrix - Database Selection|Decision Matrices]]
+graph TD
+    Root([Multi-Cloud Enterprise Architecture])
+    
+    Root --> AWS_Hub["☁️ AWS Architecture Hub<br/>(SAA-C03 / SAP-C02)"]
+    Root --> AZ_Hub["🔷 Azure Architecture Hub<br/>(AZ-305 / AZ-104)"]
+    Root --> Cross["🔄 Multi-Cloud Translation & Matrices"]
+    Root --> Portfolio["📄 Career Portfolio & Resume Engine"]
+
+    AWS_Hub --> AWS_WAF[AWS Well-Architected]
+    AWS_Hub --> AWS_Infra[EC2, S3, RDS, VPC, IAM]
+    
+    AZ_Hub --> AZ_WAF[Azure Well-Architected]
+    AZ_Hub --> AZ_Infra[VMs, Blob, Azure SQL, VNet, Entra ID]
+
+    Cross --> Rosetta["[[Decision Matrix - AWS to Azure Service Translation]]"]
+    Portfolio --> Resume["[[Ryan_Bartusek_Resume_2026v7|Resume Source & PDF Engine]]"]
+
+    classDef aws fill:#FF9900,stroke:#D37D00,color:#fff;
+    classDef azure fill:#0078D4,stroke:#005A9E,color:#fff;
+    classDef cross fill:#2D7D9A,stroke:#1A536B,color:#fff;
+    classDef port fill:#107C41,stroke:#0B582E,color:#fff;
+    class AWS_Hub,AWS_WAF,AWS_Infra aws;
+    class AZ_Hub,AZ_WAF,AZ_Infra azure;
+    class Cross,Rosetta cross;
+    class Portfolio,Resume port;
 ```
 
-### 📂 Domain Navigation Hubs
+---
 
-| Domain / Area | Core Map of Content | Key Focus Areas |
+## 🏛️ Cloud Architecture Portals
+
+### ☁️ Amazon Web Services (AWS)
+- 📌 **Master Hub**: **[[AWS Architecture Knowledge Hub]]**
+- 📋 **Framework**: [[Well-Architected Framework MOC]]
+- 💻 **Compute**: [[Compute MOC]] (EC2, Auto Scaling, Lambda, ECS, EKS, Fargate)
+- 🗄️ **Storage**: [[Storage MOC]] (S3 Deep Dive, EBS, EFS, FSx, Storage Gateway)
+- 🗃️ **Databases**: [[Databases MOC]] (RDS, Aurora, DynamoDB, ElastiCache, Redshift)
+- 🌐 **Networking**: [[Networking MOC]] (VPC, Route 53, CloudFront, Transit Gateway)
+- 🔐 **Security & IAM**: [[Security MOC]] (IAM, SCPs, KMS, Secrets Manager, GuardDuty)
+- 📨 **Messaging**: [[Integration MOC]] (SQS, SNS Fan-Out, EventBridge, Step Functions)
+- 📊 **Monitoring**: [[Monitoring MOC]] (CloudWatch, CloudTrail, Config, SSM)
+- 🛡️ **Resilience**: [[High Availability & DR Strategies]] & [[RTO & RPO Comparison]]
+- 🎯 **Exam Cheat Sheet**: [[SAA-C03 High-Yield Exam Cheat Sheet]]
+
+### 🔷 Microsoft Azure
+- 📌 **Master Hub**: **[[Azure Architecture Knowledge Hub]]**
+- 📋 **Framework**: [[Azure Well-Architected Framework MOC]]
+- 💻 **Compute**: [[Azure Compute MOC]] (Virtual Machines, VMSS, App Service, ACA, AKS, Functions)
+- 🗄️ **Storage & Data**: [[Azure Storage & Data MOC]] (Blob Storage, ADLS Gen2, Files, Azure SQL, Cosmos DB)
+- 🌐 **Networking**: [[Azure Networking MOC]] (VNets, Hub-and-Spoke, Virtual WAN, ExpressRoute, Front Door)
+- 🔐 **Identity & Governance**: [[Identity & Governance MOC]] (Microsoft Entra ID, PIM, RBAC, Policy, Key Vault)
+- 🛡️ **BCDR & Observability**: [[Azure BCDR & Monitoring MOC]] (ASR, Azure Backup, Monitor, Log Analytics, Migrate)
+- 🎯 **Exam Cheat Sheet**: [[AZ-305 High-Yield Exam Cheat Sheet]]
+
+---
+
+## 🔄 Multi-Cloud Decision Matrices & Cross-References
+
+| Matrix / Tool | Primary Purpose | Scope |
 | :--- | :--- | :--- |
-| **00. Inbox** | [[00 - Inbox/README\|Inbox & Fleeting Notes]] | Rapid capture, practice exam clippings, unfiled notes |
-| **01. Framework** | [[Well-Architected Framework MOC]] | 6 Pillars, Design Principles, Lens Reviews |
-| **02. Compute** | [[Compute MOC]] | EC2, Auto Scaling, Lambda, ECS, EKS, Fargate |
-| **03. Storage** | [[Storage MOC]] | S3 Deep Dive, EBS, EFS, FSx, Storage Gateway |
-| **04. Databases** | [[Databases MOC]] | RDS, Aurora, DynamoDB, ElastiCache, Redshift |
-| **05. Networking** | [[Networking MOC]] | VPC, Subnets, Gateways, Route 53, CloudFront, Direct Connect |
-| **06. Security** | [[Security MOC]] | IAM, SCPs, KMS, Secrets Manager, GuardDuty, Macie |
-| **07. Integration** | [[Integration MOC]] | SQS, SNS Fan-out, EventBridge, Step Functions, Kinesis |
-| **08. Monitoring** | [[Monitoring MOC]] | CloudWatch, CloudTrail, AWS Config, Systems Manager |
-| **09. Resilience** | [[High Availability & DR Strategies]] | RTO/RPO, Backup & Restore, Pilot Light, Warm Standby, Active-Active |
-| **Git & Repo** | [[README\|Repository & Study Guide]] | Git workflow, Obsidian setup, recommended plugins |
+| **[[Decision Matrix - AWS to Azure Service Translation]]** | Side-by-side architectural translation between AWS and Azure services | Compute, Storage, Data, Network, IAM, Ops |
+| **[[Decision Matrix - Database Selection]]** | Workload pattern to database engine mapping (Relational, Key-Value, Graph, In-Memory) | AWS & Multi-Cloud |
+| **[[Decision Matrix - Storage Services]]** | Block vs Object vs File vs Hybrid Gateway decision criteria | AWS & Multi-Cloud |
+| **[[Decision Matrix - Decoupling & Messaging]]** | Message queuing, pub/sub, event routers, and streaming pipelines | AWS & Multi-Cloud |
+| **[[Decision Matrix - Hybrid Connectivity]]** | VPN vs Direct Connect / ExpressRoute vs Transit Gateway / Virtual WAN | AWS & Azure Hybrid |
+| **[[RTO & RPO Comparison]]** | Disaster recovery tiers (Backup & Restore, Pilot Light, Warm Standby, Active-Active) | Multi-Cloud Resilience |
 
 ---
 
-## ⚡ High-Yield Decision Matrices & Cheat Sheets
+## 📄 Professional Career Portfolio & Resume Engine
 
-- 📊 **[[Decision Matrix - Database Selection]]** $\rightarrow$ *SQL vs NoSQL vs In-Memory vs Graph vs TimeSeries*
-- 🗄️ **[[Decision Matrix - Storage Services]]** $\rightarrow$ *S3 vs EBS vs EFS vs FSx Lustre/Windows/ONTAP*
-- 📨 **[[Decision Matrix - Decoupling & Messaging]]** $\rightarrow$ *SQS vs SNS vs EventBridge vs Kinesis vs Step Functions*
-- 🌐 **[[Decision Matrix - Hybrid Connectivity]]** $\rightarrow$ *VPN vs Direct Connect vs Transit Gateway vs PrivateLink*
-- 🎯 **[[SAA-C03 High-Yield Exam Cheat Sheet]]** $\rightarrow$ *Instant exam keyword pairings & trap avoidance*
-- ⏱️ **[[RTO & RPO Comparison]]** $\rightarrow$ *Disaster recovery tiering & architecture tradeoffs*
+- 📂 **Directory**: `resume/`
+- 📝 **Current Source Version**: [[Ryan_Bartusek_Resume_2026v7|Ryan Bartusek Resume (2026v7)]]
+- 🖨️ **Headless PDF Engine**: `python3 render_pdf.py` (generates ATS-optimized single-page vector PDF)
+- 📖 **Documentation**: [[resume/README|Resume & Career Engine Runbook]]
 
 ---
 
-## 🎯 Exam Blueprint & Scoring Focus (SAA-C03)
-
-```mermaid
-pie title SAA-C03 Exam Domains
-    "Domain 1: Design Secure Architectures (30%)" : 30
-    "Domain 2: Design Resilient Architectures (26%)" : 26
-    "Domain 3: Design High-Performing Architectures (24%)" : 24
-    "Domain 4: Design Cost-Optimized Architectures (20%)" : 20
-```
-
-1. **Design Secure Architectures (30%)**:
-   - [[AWS IAM (Policies, Roles, Delegation)]], [[Network Security (Security Groups, NACLs, WAF, Shield)]], [[KMS & Secrets Manager]], [[AWS Organizations & SCPs]].
-2. **Design Resilient Architectures (26%)**:
-   - [[EC2 Auto Scaling & Load Balancing]], [[High Availability & DR Strategies]], [[Amazon SQS (Standard, FIFO, DLQ)]], [[Amazon RDS & Aurora]].
-3. **Design High-Performing Architectures (24%)**:
-   - [[Amazon DynamoDB]], [[ElastiCache & MemoryDB]], [[CloudFront & Global Accelerator]], [[Amazon EFS & FSx]].
-4. **Design Cost-Optimized Architectures (20%)**:
-   - [[S3 Storage Classes & Lifecycle]], [[EC2 - Elastic Compute Cloud]], [[Cost Optimization Pillar]].
-
----
-
-## 🛠️ Note Taking Guidelines for this Vault
-1. **Link aggressively**: Whenever you mention another AWS service or architectural concept, use wikilinks (e.g. `[[Amazon RDS & Aurora]]`).
-2. **Use Callouts**:
-   - `> [!tip] Exam Tip` for high-frequency exam questions.
-   - `> [!warning] Architecture Pitfall` for common traps and anti-patterns.
-   - `> [!example] Scenario` for case-study questions.
-3. **Use Templates**: Create new notes with [[Template - Service Deep Dive]] or [[Template - Architecture Scenario]].
+## 🛠️ Vault Organization & Note Standards
+1. **Repository Link Integrity**: All internal notes use standard Obsidian Wikilinks `[[Note Name]]` and resolve cleanly across `aws/`, `azure/`, and `resume/`.
+2. **Templates**: Generate new architecture scenario notes using [[Template - Architecture Scenario]] or service breakdowns using [[Template - Service Deep Dive]].
+3. **Inbox Processing**: Capture quick thoughts and exam questions in [[00 - Inbox/README|00 - Inbox/]].
