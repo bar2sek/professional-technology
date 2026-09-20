@@ -27,7 +27,7 @@ This repository is organized to serve **two environments simultaneously**:
 ## 🗺️ Vault Architecture & Directory Structure
 
 ```text
-technology-professional/
+professional-technology/
 ├── .obsidian/                           # Vault configuration (wikilinks, asset routing)
 ├── 00 - Home.md                         # Master Vault Landing Hub & Knowledge Graph Core
 ├── 00 - Inbox/                          # Staging ground for rapid study capture & exam clippings
@@ -154,7 +154,7 @@ pie title SAA-C03 Exam Scoring Weight
 ### 1. Opening the Vault
 1. Launch [Obsidian](https://obsidian.md).
 2. Click **Open folder as vault**.
-3. Select this repository root directory (`technology-professional`).
+3. Select this repository root directory (`professional-technology`).
 4. Obsidian will automatically recognize the pre-configured `.obsidian/app.json`:
    - Internal links use `[[Wikilinks]]`.
    - Pasted images, diagrams, and assets are automatically stored cleanly in `assets/`.

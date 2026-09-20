@@ -29,7 +29,7 @@ Des Moines, IA • [bar2sek@users.noreply.github.com](mailto:bar2sek@users.norep
 
 ## Overview
 
-This directory maintains the iterative source, formatting, and automated generation pipeline for Ryan Bartusek's professional resume, co-located within the `technology-professional` repository. 
+This directory maintains the iterative source, formatting, and automated generation pipeline for Ryan Bartusek's professional resume, co-located within the `professional-technology` repository. 
 
 It implements a **dual-artifact workflow**:
 1. **Semantic Markdown (`.md`)**: Human-readable, ATS-friendly plain-text drafts optimized for git diffing, version control, and text intake systems.
