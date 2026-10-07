@@ -73,6 +73,10 @@ graph TD
 - 🛡️ **BCDR & Observability**: [[Azure BCDR & Monitoring MOC]] (ASR, Azure Backup, Monitor, Log Analytics, Migrate)
 - 🎯 **Exam Cheat Sheet**: [[AZ-305 High-Yield Exam Cheat Sheet]]
 
+### 🤝 AI Engineering
+- 🧠 **Generative AI on AWS**: [[Generative AI MOC]] (Bedrock, Knowledge Bases, Guardrails, AgentCore)
+- 🛠️ **Practice**: [[AI-Assisted Engineering Workflow]] (operating model, verification discipline, case log)
+
 ---
 
 ## 🔄 Multi-Cloud Decision Matrices & Cross-References

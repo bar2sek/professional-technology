@@ -41,7 +41,8 @@ professional-technology/
 │   ├── 07 - Application Integration & Messaging/# SQS, SNS, EventBridge, Step Functions, Kinesis
 │   ├── 08 - Monitoring & Governance/           # CloudWatch, CloudTrail, Config, Systems Manager
 │   ├── 09 - Disaster Recovery & High Avail/    # RTO/RPO strategies, Multi-AZ vs Multi-Region
-│   └── 10 - Decision Matrices & Cheat Sheets/  # High-yield exam cheat sheets & decision trees
+│   ├── 10 - Decision Matrices & Cheat Sheets/  # High-yield exam cheat sheets & decision trees
+│   └── 11 - Generative AI & ML/                # Bedrock, Knowledge Bases, Guardrails, AgentCore
 ├── azure/                                      # 🔷 Microsoft Azure Architecture Track
 │   ├── 00 - Azure Architecture Hub.md          # Azure Domain Master Landing Page & Study Plan
 │   ├── 01 - Well-Architected Framework/        # Azure WAF: Reliability, Security, Cost, Ops, Perf
@@ -51,6 +52,8 @@ professional-technology/
 │   ├── 05 - Networking & Hybrid Connectivity/  # VNets, Hub-Spoke, Virtual WAN, ExpressRoute, Front Door
 │   ├── 06 - Business Continuity & Monitoring/  # ASR, Azure Backup, Azure Monitor, Log Analytics, Migrate
 │   └── 07 - Decision Matrices & Cheat Sheets/  # AZ-305 Cheat Sheet & AWS-to-Azure Translation Matrix
+├── ai-engineering/                             # 🤝 AI-assisted engineering practice & case log
+│   └── AI-Assisted Engineering Workflow.md
 ├── 11 - Templates/                             # Cloud-agnostic and service-specific note templates
 │   ├── Template - Service Deep Dive.md
 │   └── Template - Architecture Scenario.md
@@ -85,6 +88,7 @@ professional-technology/
 | **08. Governance** | [Monitoring MOC](aws/08%20-%20Monitoring%20&%20Governance/Monitoring%20MOC.md) | CloudWatch, CloudTrail, AWS Config, Systems Manager (SSM) |
 | **09. Resilience** | [High Availability & DR Strategies](aws/09%20-%20Disaster%20Recovery%20&%20High%20Availability/High%20Availability%20&%20DR%20Strategies.md) | RTO/RPO calculation, Backup & Restore, Pilot Light, Warm Standby, Active-Active |
 | **10. Cheat Sheets** | [Decision Matrices & Cheat Sheets](aws/10%20-%20Decision%20Matrices%20&%20Cheat%20Sheets/) | High-yield keyword matchers, exam distractor traps, and SAA-C03 cheat sheets |
+| **11. Generative AI** | [Generative AI MOC](aws/11%20-%20Generative%20AI%20&%20ML/Generative%20AI%20MOC.md) | Bedrock inference & pricing, Knowledge Bases (RAG), Guardrails, AgentCore, PrivateLink & SCP controls |
 
 ### 🔷 Microsoft Azure Architecture Track (`azure/`)
 

@@ -36,6 +36,8 @@ mindmap
       [[Monitoring MOC|Monitoring & Governance]]
     Application Design
       [[Integration MOC|Messaging & Decoupling]]
+    Generative AI
+      [[Generative AI MOC|Bedrock & GenAI]]
     Exam Mastery
       [[SAA-C03 High-Yield Exam Cheat Sheet|Cheat Sheet]]
       [[Decision Matrix - Database Selection|Decision Matrices]]
@@ -57,6 +59,7 @@ mindmap
 | **08. Monitoring** | [[Monitoring MOC]] | CloudWatch Metrics/Logs/Alarms, CloudTrail, AWS Config Rules, Systems Manager (SSM) |
 | **09. Resilience & DR** | [[High Availability & DR Strategies]] | RTO & RPO, Backup/Restore, Pilot Light, Warm Standby, Multi-Region Active-Active |
 | **10. Cheat Sheets** | [[SAA-C03 High-Yield Exam Cheat Sheet]] | Rapid keyword pairings, service comparison matrices, anti-patterns & trap avoidance |
+| **11. Generative AI** | [[Generative AI MOC]] | Bedrock inference & pricing, Knowledge Bases (RAG), Guardrails, AgentCore, PrivateLink & SCP controls |
 
 ---
 
