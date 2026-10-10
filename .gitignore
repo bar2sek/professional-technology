@@ -94,3 +94,7 @@ resume_preview.html
 resume/.chrome_profile/
 resume/resume_preview.html
 resume/__pycache__/
+
+# --- Career, Interview Prep & Job Descriptions (Private / Confidential) ---
+job-descriptions/
+
