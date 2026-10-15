@@ -98,3 +98,18 @@ aliases:
 | **Disaster Recovery Replication**| AWS Elastic Disaster Recovery (DRS)| Azure Site Recovery (ASR) | Orchestrates VM replication, test failovers in isolated VNets, and cross-region cutovers. |
 | **Central Backup Service** | AWS Backup | Azure Backup (Recovery Services Vault) | Supports Immutable Vaults with Multi-User Authorization against ransomware tampering. |
 | **Migration Assessment** | AWS Migration Hub | Azure Migrate | Provides agentless appliance discovery, VMware/Hyper-V assessment, and business case TCO. |
+
+---
+
+## 🤖 7. Artificial Intelligence, Machine Learning & Generative AI
+
+| Architecture Domain | Amazon Web Services (AWS) | Microsoft Azure | Key Architectural Difference / Nuance |
+| :--- | :--- | :--- | :--- |
+| **Foundation Models & Managed LLMs** | Amazon Bedrock (Converse API) | Azure OpenAI Service / Azure AI Foundry | Azure provides first-party private access to OpenAI flagship models (GPT-4o, o1, embeddings) plus open-weight catalogs. |
+| **Vector Search & RAG Retrieval** | Bedrock Knowledge Bases (S3 Vectors / OpenSearch) | Azure AI Search (formerly Cognitive Search) | Azure AI Search uniquely integrates hybrid BM25 full-text + dense vector retrieval with proprietary Semantic Re-ranking out-of-the-box. |
+| **AI Safety & Content Guardrails** | Amazon Bedrock Guardrails | Azure AI Content Safety | Azure AI Content Safety provides specialized Prompt Shields (jailbreak defense), Groundedness detection, and multimodal content filtering. |
+| **End-to-End Enterprise MLOps** | Amazon SageMaker | Azure Machine Learning (Azure ML) | Azure ML features deep integration with MLflow, automated ML (AutoML), managed online endpoints, and vNet-isolated compute clusters. |
+| **Document Intelligence & OCR** | Amazon Textract | Azure AI Document Intelligence | Prebuilt and custom models for forms, invoices, receipts, and identity documents with layout and table extraction. |
+| **Speech & Audio Translation** | Amazon Transcribe / Polly | Azure AI Speech | Real-time speech-to-text, neural text-to-speech, custom voice synthesis, and real-time speech translation. |
+| **Hybrid Kubernetes Management** | AWS EKS Connector | Azure Arc-enabled Kubernetes | Arc provides bidirectional GitOps (Flux), Azure Policy enforcement, and Container Insights with zero open inbound firewall ports. |
+
