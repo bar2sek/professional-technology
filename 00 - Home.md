@@ -34,7 +34,7 @@ graph TD
     AZ_Hub --> AZ_Infra[VMs, Blob, Azure SQL, VNet, Entra ID]
 
     Cross --> Rosetta["[[Decision Matrix - AWS to Azure Service Translation]]"]
-    Portfolio --> Resume["[[Ryan_Bartusek_Resume_2026v7|Resume Source & PDF Engine]]"]
+    Portfolio --> Resume["[[Ryan_Bartusek_Resume_2026v8|Resume Source & PDF Engine]]"]
 
     classDef aws fill:#FF9900,stroke:#D37D00,color:#fff;
     classDef azure fill:#0078D4,stroke:#005A9E,color:#fff;
@@ -45,6 +45,11 @@ graph TD
     class Cross,Rosetta cross;
     class Portfolio,Resume port;
 ```
+
+---
+
+## 🧭 Active Roadmap
+- 🗓️ **[[01 - Certification & Architecture Roadmap]]**: SAA-C03 → SAP-C02 → AZ-104/AZ-305 (Oct 2026 – Aug 2027), plus the architecture write-up portfolio track.
 
 ---
 
@@ -95,7 +100,7 @@ graph TD
 ## 📄 Professional Career Portfolio & Resume Engine
 
 - 📂 **Directory**: `resume/`
-- 📝 **Current Source Version**: [[Ryan_Bartusek_Resume_2026v7|Ryan Bartusek Resume (2026v7)]]
+- 📝 **Current Source Version**: [[Ryan_Bartusek_Resume_2026v8|Ryan Bartusek Resume (2026v8)]]
 - 🖨️ **Headless PDF Engine**: `python3 render_pdf.py` (generates ATS-optimized single-page vector PDF)
 - 📖 **Documentation**: [[resume/README|Resume & Career Engine Runbook]]
 
