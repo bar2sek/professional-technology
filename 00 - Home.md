@@ -49,7 +49,7 @@ graph TD
 ---
 
 ## 🧭 Active Roadmap
-- 🗓️ **[[01 - Certification & Architecture Roadmap]]**: SAA-C03 → SAP-C02 → AZ-104/AZ-305 (Oct 2026 – Aug 2027), plus the architecture write-up portfolio track.
+- 🗓️ **[[01 - Certification & Architecture Roadmap]]**: CLF-C02 + AIF-C01 warmup → SAA-C03 → SAP-C02 → AZ-104/AZ-305 (Oct 2026 – Sep 2027), plus the architecture write-up portfolio track.
 
 ---
 
